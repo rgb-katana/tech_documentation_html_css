@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.35rem;
+}
+
+body {
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-menu {
+    position: fixed;
+    margin-top: -30px;
+    max-width: 250px;
+    height: 110%;
+    border-right: 3px solid rgb(98, 98, 98);
+}
+
+.navigation-menu nav ul li {
+    margin-top: 10px;
+}
+
+.content {
+    margin-left: 270px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: -20px;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    padding: auto;
+}
+
+h1 {
+    border-bottom: 2px solid grey;
+    margin-right: 10px;
+}
